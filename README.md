@@ -255,7 +255,7 @@ Using the Driver
 Like the `VaultConfig` class, `Vault` too supports a builder pattern DSL style:
 
 ```
-final Map<String, String> secrets = new HashMap<String, String>();
+final Map<String, Object> secrets = new HashMap<>();
 secrets.put("value", "world");
 secrets.put("other_value", "You can store multiple name/value pairs under a single key");
 
