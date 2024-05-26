@@ -510,7 +510,7 @@ All code changes should include unit test and/or integration test coverage as ap
 tests are any that can be run in isolation, with no external dependencies. Integration tests are
 those which require a Vault server instance (at least a Dev Server) up and running.
 
-Unit tests are located under the `src/test` directory, and can be run with the Grade `unitTest`
+Unit tests are located under the `src/test` directory, and can be run with the Gradle `unitTest`
 task.
 
 Integration tests are located under the `src/test-integration` directory, and can be run with the
